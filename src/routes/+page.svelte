@@ -2,6 +2,7 @@
 	import waves from "$lib/images/waves.svg";
 	import ben from "$lib/images/ben.jpg";
 	import bottomWave from "$lib/images/bottom-wave.svg";
+	import resume from "$lib/assets/resume.pdf";
 
 	let scrollY = 0;
 </script>
@@ -294,14 +295,21 @@
 			</div>
 		</div>
 	</section>
+
+	<p class="p-16 text-center font-semibold text-gray-400">
+		And last but not least, this site! It was made in a few hours and is still a
+		work in progress.
+	</p>
 </main>
 
 <img src={bottomWave} alt="" class="w-full" />
-<footer
-	class="flex items-center justify-center bg-[#131428] p-16 font-semibold text-gray-400"
->
-	And last but not least, this site! It was made in a few hours and is still a
-	work in progress.
+<footer class="flex items-center justify-center bg-[#131428] p-16">
+	<a
+		class="text-2xl text-gray-300"
+		rel="noreferrer"
+		target="_blank"
+		href={resume}>Resume</a
+	>
 </footer>
 
 <style lang="postcss">
