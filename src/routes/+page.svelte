@@ -51,15 +51,15 @@
 		</div>
 	</section>
 
-	<section class="mt-[30vh] p-8">
+	<section class="p-8">
 		<h2
-			class="mx-auto mb-16 mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
+			class="mx-auto my-[30vh] mb-16 mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
 		>
 			My skills
 		</h2>
 
 		<div
-			class="mx-auto mb-[30vh] flex max-w-5xl flex-col items-stretch gap-4 lg:flex-row"
+			class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 lg:flex-row"
 		>
 			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
 				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm "good" at:</h3>
@@ -100,9 +100,9 @@
 		</div>
 	</section>
 
-	<section class="mt-16 p-8">
+	<section class="p-8">
 		<h2
-			class="mx-auto mb-[70vh] mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
+			class="mx-auto my-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
 		>
 			My projects
 		</h2>
@@ -116,18 +116,19 @@
 					><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
 				>
 				is a Minecraft mod that lets speedrunners race each other in the same seed,
-				but on different worlds. The devs of the mod made a public API for the leaderboards,
-				player stats, match timelines, and more, so I made this website.
+				but on different worlds. The devs of the mod made a <b>public API</b>
+				for the leaderboards, player stats, match timelines, and more, so I made
+				this website.
 				<br />
 				<br />It received <b>100+</b> visitors and <b>1,200+</b> page views
-				during the day after I told people about it.
+				during <b>the day after</b> I told people about it.
 				<br />
 				<br />This is my proudest web dev project, so have a look around!
 				<a
 					href="https://github.com/bent101/mcsr-ranked-stats"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-40">Repo</a
+					class="ml-4 inline-block opacity-50">Repo</a
 				>
 			</p>
 		</Project>
@@ -146,23 +147,24 @@
 				<br />The HTML structure (and the text content) of the UCSD course
 				catalog is so messy and inconsistent, that the first month of the
 				project was spent just on the scraping. It took over <b>500 lines</b> of
-				Python (and some manual formatting) to parse, filter, and organize the
+				Python (and some manual formatting) to parse, filter, and organize, and
+				interlink the
 				<b>6,888 courses</b> across <b>82 pages</b>.
 				<br />
-				<br />The result is 82 lists of interlinked courses that you can switch
-				between and save links to.
+				<br />The result is 82 lists of <b>interlinked courses</b> that you can
+				switch between and save links to.
 				<br />
 				<a
 					href="https://github.com/bent101/ucsdcourses"
 					target="_blank"
 					rel="noreferrer"
-					class="inline-block opacity-40">Site repo</a
+					class="inline-block opacity-50">Site repo</a
 				>
 				<a
 					href="https://github.com/bent101/ucsd-courses-scraping"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-40">Scraping repo</a
+					class="ml-4 inline-block opacity-50">Scraping repo</a
 				>
 			</p>
 		</Project>
@@ -181,7 +183,7 @@
 					href="https://github.com/bent101/pi-game"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-40">Repo</a
+					class="ml-4 inline-block opacity-50">Repo</a
 				>
 			</p>
 		</Project>
@@ -202,7 +204,7 @@
 					href="https://github.com/studio-heart-engine/joyspring/tree/master"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-40">Repo</a
+					class="ml-4 inline-block opacity-50">Repo</a
 				>
 			</p>
 		</Project>
