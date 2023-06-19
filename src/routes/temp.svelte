@@ -48,56 +48,6 @@
 			</p>
 		</div>
 	</section>
-
-	<section class="mt-[30vh] p-8">
-		<h2
-			class="mx-auto mb-16 mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
-		>
-			My skills
-		</h2>
-
-		<div
-			class="mx-auto mb-[30vh] flex max-w-5xl flex-col items-stretch gap-4 lg:flex-row"
-		>
-			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm "good" at:</h3>
-				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
-				>
-					<li>Svelte/SvelteKit</li>
-					<li>Tailwind</li>
-					<li>HMTL</li>
-					<li>CSS</li>
-					<li>JavaScript/Typescript</li>
-					<li>Python</li>
-				</ul>
-			</div>
-
-			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I know:</h3>
-				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
-				>
-					<li>Go, Java, C, C++</li>
-					<li>Vanilla JS</li>
-					<li>Git/Github</li>
-					<li>Working with a team</li>
-					<li>SQL</li>
-				</ul>
-			</div>
-
-			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm learning:</h3>
-				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
-				>
-					<li>React/Next</li>
-					<li>Using databases</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
 	<section class="mt-16 p-8">
 		<h2
 			class="mx-auto mb-[70vh] mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
@@ -126,9 +76,7 @@
 				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
 					MCSR Ranked Stats
 				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
+				<div class="ml-auto block w-max font-serif text-xl text-gray-500">
 					March - present
 				</div>
 				<p class="mt-32 text-lg font-semibold text-gray-500">
@@ -140,12 +88,6 @@
 					leaderboards, player stats, match timelines, and more, so I made this website.
 					<br /><br />
 					This is my proudest web dev project, so have a look around!
-					<a
-						href="https://github.com/bent101/mcsr-ranked-stats"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
 				</p>
 			</div>
 		</div>
@@ -171,9 +113,7 @@
 				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
 					UCSD Courses
 				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
+				<div class="ml-auto block w-max font-serif text-xl text-gray-500">
 					January - March
 				</div>
 				<p class="mt-32 text-lg font-semibold text-gray-500">
@@ -191,18 +131,6 @@
 					<br />
 					<br />The result is 82 lists of interlinked courses that you can
 					switch between and save links to.
-					<a
-						href="https://github.com/bent101/ucsdcourses"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Site repo</a
-					>
-					<a
-						href="https://github.com/bent101/ucsd-courses-scraping"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Scraping repo</a
-					>
 				</p>
 			</div>
 		</div>
@@ -228,23 +156,14 @@
 				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
 					Pi Game
 				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
+				<div class="ml-auto block w-max font-serif text-xl text-gray-500">
 					January
 				</div>
 				<p class="mt-32 text-lg font-semibold text-gray-500">
 					I made this game that helps the player learn the digits of pi, and to
-					help myself learn <b>SvelteKit</b> and <b>Tailwind</b>. I absolutely
-					love this stack and have used it ever since, so you could say this
+					help myself learn <b>SvelteKit</b> and <b>Tailwind</b>, which is also
+					the tech stack I used for these other projects. So you could say this
 					project served its purpose!
-
-					<a
-						href="https://github.com/bent101/pi-game"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
 				</p>
 			</div>
 		</div>
@@ -270,26 +189,16 @@
 				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
 					Joyspring
 				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
+				<div class="ml-auto block w-max font-serif text-xl text-gray-500">
 					2020 - 2021
 				</div>
 				<p class="mt-32 text-lg font-semibold text-gray-500">
-					I worked with a group of friends to make this platformer using <b
-						><a href="https://godotengine.org/">Godot</a></b
-					>, a free and open-source game engine. I also taught other people how
-					to use Godot as the <b>vice-president</b> of the Game Dev club.
+					I worked with a group of friends to make this platformer using <a
+						href="https://godotengine.org/">Godot</a
+					>, a free and open-source game engine.
 					<br />
-					<br />It has over <b>50k</b> downloads with an <b>80%</b> positive
-					review rate.
-
-					<a
-						href="https://github.com/studio-heart-engine/joyspring/tree/master"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
+					<br />It has over <b>50k</b> downloads with an <b>80%</b> positive review
+					rate.
 				</p>
 			</div>
 		</div>
@@ -297,23 +206,19 @@
 </main>
 
 <img src={bottomWave} alt="" class="w-full" />
-<footer
-	class="flex items-center justify-center bg-[#131428] p-16 font-semibold text-gray-400"
->
-	And last but not least, this site! It was made in a few hours and is still a
-	work in progress.
-</footer>
+<footer class="flex items-center justify-center bg-[#131428] p-16">asdf</footer>
 
 <style lang="postcss">
 	img {
 		user-select: none;
 	}
 
-	b {
-		@apply text-gray-300;
+	b,
+	a {
+		@apply font-bold text-gray-300;
 	}
 
 	a {
-		@apply font-bold underline underline-offset-4;
+		@apply underline underline-offset-4;
 	}
 </style>
