@@ -37,13 +37,6 @@
 
 <svelte:window bind:scrollY bind:innerHeight={windowHeight} />
 
-<div
-	style="width: {100 * scrollProgress}%"
-	class="fixed inset-x-0 top-0 z-10 h-2 overflow-clip"
->
-	<div class="h-full w-screen bg-gradient-to-r from-purple-700 to-orange-600" />
-</div>
-
 <header
 	bind:this={header}
 	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
@@ -247,14 +240,27 @@
 </main>
 
 <img src={bottomWave} alt="" class="w-full" />
-<footer class="flex items-center justify-center bg-[#131428] p-16">
+<footer class="flex items-center justify-center gap-8 bg-[#131428] p-16">
 	<a
 		class="text-2xl text-gray-300"
 		rel="noreferrer"
 		target="_blank"
 		href={resume}>Resume</a
 	>
+	<a
+		class="text-2xl text-gray-300"
+		rel="noreferrer"
+		target="_blank"
+		href="https://github.com/bent101">Github</a
+	>
 </footer>
+
+<div
+	style="width: {100 * scrollProgress}%"
+	class="fixed inset-x-0 top-0 z-[9999] h-2 overflow-clip"
+>
+	<div class="h-full w-screen bg-gradient-to-r from-purple-700 to-orange-600" />
+</div>
 
 <style lang="postcss">
 	img {
