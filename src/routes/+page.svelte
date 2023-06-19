@@ -3,6 +3,7 @@
 	import ben from "$lib/images/ben.jpg";
 	import bottomWave from "$lib/images/bottom-wave.svg";
 	import resume from "$lib/assets/resume.pdf";
+	import Project from "../lib/components/Project.svelte";
 
 	let scrollY = 0;
 </script>
@@ -106,194 +107,91 @@
 			My projects
 		</h2>
 
-		<div class="relative flex flex-col gap-8 pb-[70vh] lg:flex-row">
-			<div
-				class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
+		<Project iframeURL="https://mcsrrankedstats.vercel.app">
+			<div slot="title">MCSR Ranked Stats</div>
+			<div slot="date">March - present</div>
+			<a href="https://mcsrranked.com" target="_blank" rel="noreferrer"
+				><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
 			>
-				<div
-					class="top-0 h-full rounded-3xl bg-[#131428] p-4 transition-all duration-1000 hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
-				>
-					<div class="relative h-full">
-						<iframe
-							src="https://mcsrrankedstats.vercel.app/DOOGILE"
-							title="MCSR Ranked Stats"
-							frameborder="0"
-							class="absolute -inset-1/2 h-[200%] w-[200%] scale-50"
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="flex-1 lg:my-[90vh]">
-				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
-					MCSR Ranked Stats
-				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
-					March - present
-				</div>
-				<p class="mt-32 text-lg font-semibold text-gray-500">
-					<a href="https://mcsrranked.com" target="_blank" rel="noreferrer"
-						><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
-					>
-					is a Minecraft mod that lets speedrunners race each other in the same seed,
-					but on different worlds. The devs of the mod made a public API for the
-					leaderboards, player stats, match timelines, and more, so I made this website.
-					<br /><br />
-					This is my proudest web dev project, so have a look around!
-					<a
-						href="https://github.com/bent101/mcsr-ranked-stats"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
-				</p>
-			</div>
-		</div>
-
-		<div class="relative flex flex-col gap-8 pb-[70vh] lg:flex-row">
-			<div
-				class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
+			is a Minecraft mod that lets speedrunners race each other in the same seed,
+			but on different worlds. The devs of the mod made a public API for the leaderboards,
+			player stats, match timelines, and more, so I made this website.
+			<br /><br />
+			This is my proudest web dev project, so have a look around!
+			<a
+				href="https://github.com/bent101/mcsr-ranked-stats"
+				target="_blank"
+				rel="noreferrer"
+				class="ml-4 inline-block opacity-40">Repo</a
 			>
-				<div
-					class="top-0 h-full rounded-3xl bg-[#131428] p-4 transition-all duration-1000 hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
-				>
-					<div class="relative h-full">
-						<iframe
-							src="https://ucsdcourses.vercel.app/CSE"
-							title="UCSD Courses"
-							frameborder="0"
-							class="absolute -inset-1/2 h-[200%] w-[200%] scale-50"
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="flex-1 lg:my-[90vh]">
-				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
-					UCSD Courses
-				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
-					January - March
-				</div>
-				<p class="mt-32 text-lg font-semibold text-gray-500">
-					I thought this project would be an easy way to practice frontend: I
-					would just scrape the UCSD course catalog with a bit of Python and
-					make a better-looking one.
-					<br />
-					<br />I couldn't have been more wrong.
-					<br />
-					<br />The HTML structure (and the text content) of the UCSD course
-					catalog is so messy and inconsistent, that first month of the project
-					was spent just on the scraping. It took over <b>500 lines</b> of
-					Python (and some manual formatting) to parse, filter, and organize the
-					<b>6,888 courses</b> across <b>82 pages</b>.
-					<br />
-					<br />The result is 82 lists of interlinked courses that you can
-					switch between and save links to.
-					<a
-						href="https://github.com/bent101/ucsdcourses"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Site repo</a
-					>
-					<a
-						href="https://github.com/bent101/ucsd-courses-scraping"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Scraping repo</a
-					>
-				</p>
-			</div>
-		</div>
+		</Project>
 
-		<div class="relative flex flex-col gap-8 pb-[70vh] lg:flex-row">
-			<div
-				class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
+		<Project iframeURL="https://ucsdcourses.vercel.app">
+			<div slot="title">UCSD Courses</div>
+			<div slot="date">January - March</div>
+			I thought this project would be an easy way to practice frontend: I would just
+			scrape the UCSD course catalog with a bit of Python and make a better-looking
+			one.
+			<br />
+			<br />I couldn't have been more wrong.
+			<br />
+			<br />The HTML structure (and the text content) of the UCSD course catalog
+			is so messy and inconsistent, that first month of the project was spent
+			just on the scraping. It took over <b>500 lines</b> of Python (and some
+			manual formatting) to parse, filter, and organize the
+			<b>6,888 courses</b> across <b>82 pages</b>.
+			<br />
+			<br />The result is 82 lists of interlinked courses that you can switch
+			between and save links to.
+			<br />
+			<a
+				href="https://github.com/bent101/ucsdcourses"
+				target="_blank"
+				rel="noreferrer"
+				class="inline-block opacity-40">Site repo</a
 			>
-				<div
-					class="top-0 h-full rounded-3xl bg-[#131428] p-4 transition-all duration-1000 hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
-				>
-					<div class="relative h-full">
-						<iframe
-							src="https://pigame.vercel.app"
-							title="Pi Game"
-							frameborder="0"
-							class="absolute -inset-1/2 h-[200%] w-[200%] scale-50"
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="flex-1 lg:my-[90vh]">
-				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
-					Pi Game
-				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
-					January
-				</div>
-				<p class="mt-32 text-lg font-semibold text-gray-500">
-					I made this game that helps the player learn the digits of pi, and to
-					help myself learn <b>SvelteKit</b> and <b>Tailwind</b>. I absolutely
-					love this stack and have used it ever since, so you could say this
-					project served its purpose!
-
-					<a
-						href="https://github.com/bent101/pi-game"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
-				</p>
-			</div>
-		</div>
-
-		<div class="relative flex flex-col gap-8 pb-[70vh] lg:flex-row">
-			<div
-				class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
+			<a
+				href="https://github.com/bent101/ucsd-courses-scraping"
+				target="_blank"
+				rel="noreferrer"
+				class="ml-4 inline-block opacity-40">Scraping repo</a
 			>
-				<div
-					class="top-0 h-full rounded-3xl bg-[#131428] p-4 transition-all duration-1000 hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
-				>
-					<div class="relative h-full">
-						<iframe
-							src="https://store.steampowered.com/app/1532360/Joyspring/"
-							title="Joyspring"
-							frameborder="0"
-							class="absolute -inset-1/2 h-[200%] w-[200%] scale-50"
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="flex-1 lg:my-[90vh]">
-				<h2 class="font-serif text-5xl font-extrabold text-gray-300">
-					Joyspring
-				</h2>
-				<div
-					class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
-				>
-					2020 - 2021
-				</div>
-				<p class="mt-32 text-lg font-semibold text-gray-500">
-					I worked with a group of friends to make this platformer using <b
-						><a href="https://godotengine.org/">Godot</a></b
-					>, a free and open-source game engine. I also taught other people how
-					to use Godot as the <b>vice-president</b> of the Game Dev club.
-					<br />
-					<br />It has over <b>50k</b> downloads with an <b>80%</b> positive
-					review rate.
+		</Project>
 
-					<a
-						href="https://github.com/studio-heart-engine/joyspring/tree/master"
-						target="_blank"
-						rel="noreferrer"
-						class="ml-4 inline-block opacity-40">Repo</a
-					>
-				</p>
-			</div>
-		</div>
+		<Project iframeURL="https://pigame.vercel.app">
+			<div slot="title">Pi Game</div>
+			<div slot="date">January</div>
+			I made this game that helps the player learn the digits of pi, and to help
+			myself learn<b>SvelteKit</b> and <b>Tailwind</b>. I absolutely love this
+			stack and have used it ever since, so you could say this project served
+			its purpose!
+
+			<a
+				href="https://github.com/bent101/pi-game"
+				target="_blank"
+				rel="noreferrer"
+				class="ml-4 inline-block opacity-40">Repo</a
+			>
+		</Project>
+
+		<Project iframeURL="https://store.steampowered.com/app/1532360/Joyspring/">
+			<div slot="title">Joyspring</div>
+			<div slot="date">2020 - 2021</div>
+			I worked with a group of friends to make this platformer using<b
+				><a href="https://godotengine.org/">Godot</a></b
+			>, a free and open-source game engine. I also taught other people how to
+			use Godot as the <b>vice-president</b> of the Game Dev club.
+			<br />
+			<br />It has over <b>50k</b> downloads with an <b>80%</b> positive review
+			rate.
+
+			<a
+				href="https://github.com/studio-heart-engine/joyspring/tree/master"
+				target="_blank"
+				rel="noreferrer"
+				class="ml-4 inline-block opacity-40">Repo</a
+			>
+		</Project>
 	</section>
 
 	<p class="p-16 text-center font-semibold text-gray-400">
