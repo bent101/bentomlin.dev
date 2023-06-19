@@ -11,7 +11,7 @@
 <svelte:window bind:scrollY />
 
 <header
-	class="pointer-events-none h-[500vh] select-none bg-cover bg-center"
+	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
 	style="background-image: url({waves})"
 >
 	<div
