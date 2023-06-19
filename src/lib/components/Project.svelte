@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let iframeURL: string;
 
-	const frameZoom = 0.7;
+	const frameZoom = 0.6;
 </script>
 
 <div class="relative mb-[90vh] flex flex-col gap-8 lg:flex-row">

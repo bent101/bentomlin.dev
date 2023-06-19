@@ -86,7 +86,7 @@
 		</div>
 	</section>
 
-	<section class="p-8">
+	<section class="p-4">
 		<h2
 			class="mx-auto mb-16 mt-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
 		>
@@ -135,7 +135,7 @@
 		</div>
 	</section>
 
-	<section class="p-8">
+	<section class="p-4">
 		<h2
 			class="mx-auto my-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
 		>
