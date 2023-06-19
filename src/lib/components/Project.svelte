@@ -1,8 +1,10 @@
 <script lang="ts">
 	export let iframeURL: string;
+
+	const frameZoom = 0.7;
 </script>
 
-<div class="relative flex flex-col gap-8 pb-[70vh] lg:flex-row">
+<div class="relative mb-[90vh] flex flex-col gap-8 lg:flex-row">
 	<div
 		class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
 	>
@@ -16,8 +18,15 @@
 				<iframe
 					src={iframeURL}
 					title=""
+					loading="lazy"
 					frameborder="0"
-					class="absolute -inset-1/2 h-[200%] w-[200%] scale-50"
+					style="
+                        position: absolute;
+                        inset: -{50 / frameZoom - 50}%;
+                        scale: {frameZoom};
+                        width: {100 / frameZoom}%;
+                        height: {100 / frameZoom}%;
+                    "
 				/>
 			</div>
 		</div>

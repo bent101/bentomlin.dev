@@ -68,7 +68,7 @@
 				>
 					<li>Svelte/SvelteKit</li>
 					<li>Tailwind</li>
-					<li>HMTL</li>
+					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript/Typescript</li>
 					<li>Python</li>
