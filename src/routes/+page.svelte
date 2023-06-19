@@ -1,16 +1,51 @@
 <script lang="ts">
-	import waves from "$lib/images/waves.svg";
-	import ben from "$lib/images/ben.jpg";
-	import bottomWave from "$lib/images/bottom-wave.svg";
+	import waves from "$lib/assets/waves.svg";
+	import ben from "$lib/assets/ben.jpg";
+	import bottomWave from "$lib/assets/bottom-wave.svg";
 	import resume from "$lib/assets/resume.pdf";
 	import Project from "../lib/components/Project.svelte";
+	import { browser } from "$app/environment";
+	import { onMount } from "svelte";
+
+	let main: HTMLElement | undefined;
+	let header: HTMLElement | undefined;
+	let mainTop = 0;
+	let mainHeight = Infinity;
 
 	let scrollY = 0;
+	let windowHeight = 0;
+	$: scrollBottom = scrollY + windowHeight;
+	$: scrolled = scrollBottom - mainTop;
+	$: needToScroll = mainHeight;
+	$: scrollProgress = Math.max(scrolled / needToScroll, 0);
+
+	if (browser) {
+		window.onresize = () => {
+			const headerBox = header?.getBoundingClientRect();
+			const mainBox = main?.getBoundingClientRect();
+			mainTop = headerBox?.height ?? 0;
+			mainHeight = mainBox?.height ?? Infinity;
+
+			console.log({ mainTop, mainHeight });
+		};
+	}
+
+	onMount(() => {
+		window.dispatchEvent(new Event("resize"));
+	});
 </script>
 
-<svelte:window bind:scrollY />
+<svelte:window bind:scrollY bind:innerHeight={windowHeight} />
+
+<div
+	style="width: {100 * scrollProgress}%"
+	class="fixed inset-x-0 top-0 z-10 h-2 overflow-clip"
+>
+	<div class="h-full w-screen bg-gradient-to-r from-purple-700 to-orange-600" />
+</div>
 
 <header
+	bind:this={header}
 	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
 	style="background-image: url({waves})"
 >
@@ -26,7 +61,7 @@
 	</div>
 </header>
 
-<main class="p-4">
+<main bind:this={main} class="p-4">
 	<section class="mx-auto flex max-w-3xl flex-col gap-8 sm:flex-row">
 		<div class="flex-1">
 			<img
@@ -53,7 +88,7 @@
 
 	<section class="p-8">
 		<h2
-			class="mx-auto my-[30vh] mb-16 mt-64 max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
+			class="mx-auto mb-16 mt-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
 		>
 			My skills
 		</h2>
@@ -188,7 +223,7 @@
 			</p>
 		</Project>
 
-		<Project iframeURL="https://store.steampowered.com/app/1532360/Joyspring/">
+		<Project iframeURL="https://studio-heart-engine.itch.io/joyspring">
 			<div slot="title">Joyspring</div>
 			<div slot="date">2020 - 2021</div>
 
@@ -209,11 +244,6 @@
 			</p>
 		</Project>
 	</section>
-
-	<p class="p-16 text-center font-semibold text-gray-400">
-		And last but not least, this site! It was made in a few hours and is still a
-		work in progress.
-	</p>
 </main>
 
 <img src={bottomWave} alt="" class="w-full" />
