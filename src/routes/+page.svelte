@@ -107,90 +107,104 @@
 			My projects
 		</h2>
 
-		<Project iframeURL="https://mcsrrankedstats.vercel.app">
+		<Project iframeURL="https://mcsrrankedstats.vercel.app/DOOGILE/351573">
 			<div slot="title">MCSR Ranked Stats</div>
 			<div slot="date">March - present</div>
-			<a href="https://mcsrranked.com" target="_blank" rel="noreferrer"
-				><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
-			>
-			is a Minecraft mod that lets speedrunners race each other in the same seed,
-			but on different worlds. The devs of the mod made a public API for the leaderboards,
-			player stats, match timelines, and more, so I made this website.
-			<br /><br />
-			This is my proudest web dev project, so have a look around!
-			<a
-				href="https://github.com/bent101/mcsr-ranked-stats"
-				target="_blank"
-				rel="noreferrer"
-				class="ml-4 inline-block opacity-40">Repo</a
-			>
+
+			<p>
+				<a href="https://mcsrranked.com" target="_blank" rel="noreferrer"
+					><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
+				>
+				is a Minecraft mod that lets speedrunners race each other in the same seed,
+				but on different worlds. The devs of the mod made a public API for the leaderboards,
+				player stats, match timelines, and more, so I made this website.
+				<br />
+				<br />It received <b>100+</b> visitors and <b>1,200+</b> page views
+				during the day after I told people about it.
+				<br />
+				<br />This is my proudest web dev project, so have a look around!
+				<a
+					href="https://github.com/bent101/mcsr-ranked-stats"
+					target="_blank"
+					rel="noreferrer"
+					class="ml-4 inline-block opacity-40">Repo</a
+				>
+			</p>
 		</Project>
 
-		<Project iframeURL="https://ucsdcourses.vercel.app">
+		<Project iframeURL="https://ucsdcourses.vercel.app/CSE">
 			<div slot="title">UCSD Courses</div>
 			<div slot="date">January - March</div>
-			I thought this project would be an easy way to practice frontend: I would just
-			scrape the UCSD course catalog with a bit of Python and make a better-looking
-			one.
-			<br />
-			<br />I couldn't have been more wrong.
-			<br />
-			<br />The HTML structure (and the text content) of the UCSD course catalog
-			is so messy and inconsistent, that first month of the project was spent
-			just on the scraping. It took over <b>500 lines</b> of Python (and some
-			manual formatting) to parse, filter, and organize the
-			<b>6,888 courses</b> across <b>82 pages</b>.
-			<br />
-			<br />The result is 82 lists of interlinked courses that you can switch
-			between and save links to.
-			<br />
-			<a
-				href="https://github.com/bent101/ucsdcourses"
-				target="_blank"
-				rel="noreferrer"
-				class="inline-block opacity-40">Site repo</a
-			>
-			<a
-				href="https://github.com/bent101/ucsd-courses-scraping"
-				target="_blank"
-				rel="noreferrer"
-				class="ml-4 inline-block opacity-40">Scraping repo</a
-			>
+
+			<p>
+				I thought this project would be an easy way to practice frontend: I
+				would just scrape the UCSD course catalog with a bit of Python and make
+				a better-looking one.
+				<br />
+				<br />I couldn't have been more wrong.
+				<br />
+				<br />The HTML structure (and the text content) of the UCSD course
+				catalog is so messy and inconsistent, that the first month of the
+				project was spent just on the scraping. It took over <b>500 lines</b> of
+				Python (and some manual formatting) to parse, filter, and organize the
+				<b>6,888 courses</b> across <b>82 pages</b>.
+				<br />
+				<br />The result is 82 lists of interlinked courses that you can switch
+				between and save links to.
+				<br />
+				<a
+					href="https://github.com/bent101/ucsdcourses"
+					target="_blank"
+					rel="noreferrer"
+					class="inline-block opacity-40">Site repo</a
+				>
+				<a
+					href="https://github.com/bent101/ucsd-courses-scraping"
+					target="_blank"
+					rel="noreferrer"
+					class="ml-4 inline-block opacity-40">Scraping repo</a
+				>
+			</p>
 		</Project>
 
 		<Project iframeURL="https://pigame.vercel.app">
 			<div slot="title">Pi Game</div>
 			<div slot="date">January</div>
-			I made this game that helps the player learn the digits of pi, and to help
-			myself learn<b>SvelteKit</b> and <b>Tailwind</b>. I absolutely love this
-			stack and have used it ever since, so you could say this project served
-			its purpose!
 
-			<a
-				href="https://github.com/bent101/pi-game"
-				target="_blank"
-				rel="noreferrer"
-				class="ml-4 inline-block opacity-40">Repo</a
-			>
+			<p>
+				I made this game that helps the player learn the digits of pi, and to
+				help myself learn
+				<b>SvelteKit</b> and <b>Tailwind</b>. I absolutely love this stack and
+				have used it ever since, so you could say this project served its
+				purpose!
+				<a
+					href="https://github.com/bent101/pi-game"
+					target="_blank"
+					rel="noreferrer"
+					class="ml-4 inline-block opacity-40">Repo</a
+				>
+			</p>
 		</Project>
 
 		<Project iframeURL="https://store.steampowered.com/app/1532360/Joyspring/">
 			<div slot="title">Joyspring</div>
 			<div slot="date">2020 - 2021</div>
-			I worked with a group of friends to make this platformer using<b
-				><a href="https://godotengine.org/">Godot</a></b
-			>, a free and open-source game engine. I also taught other people how to
-			use Godot as the <b>vice-president</b> of the Game Dev club.
-			<br />
-			<br />It has over <b>50k</b> downloads with an <b>80%</b> positive review
-			rate.
 
-			<a
-				href="https://github.com/studio-heart-engine/joyspring/tree/master"
-				target="_blank"
-				rel="noreferrer"
-				class="ml-4 inline-block opacity-40">Repo</a
-			>
+			<p>
+				I worked with a group of friends to make this platformer using
+				<b><a href="https://godotengine.org/">Godot</a></b>, a free and
+				open-source game engine. I also taught other people how to use Godot as
+				the <b>vice-president</b> of the Game Dev club.
+				<br />
+				<br />It has over <b>50k</b> downloads with an <b>80%</b> positive
+				review rate.
+				<a
+					href="https://github.com/studio-heart-engine/joyspring/tree/master"
+					target="_blank"
+					rel="noreferrer"
+					class="ml-4 inline-block opacity-40">Repo</a
+				>
+			</p>
 		</Project>
 	</section>
 
