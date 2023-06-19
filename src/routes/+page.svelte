@@ -42,16 +42,18 @@
 	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
 	style="background-image: url({waves})"
 >
-	<div
-		style="scale: {1 + Math.max(0, scrollY) / 30}"
-		class="fixed inset-0 grid h-screen place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
-	>
-		<div class="mt-6 border-8 border-white p-4 text-center">
-			<div class="text-[100px] leading-[60px]">Ben</div>
-			<div class="text-[50px]">Tomlin</div>
-			<div class="text-[22px] leading-[10px]">Web developer</div>
+	{#if scrollY < mainTop}
+		<div
+			style="scale: {1 + Math.max(0, scrollY) / 30}"
+			class="fixed inset-0 grid h-screen place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
+		>
+			<div class="mt-6 border-8 border-white p-4 text-center">
+				<div class="text-[100px] leading-[60px]">Ben</div>
+				<div class="text-[50px]">Tomlin</div>
+				<div class="text-[22px] leading-[10px]">Web developer</div>
+			</div>
 		</div>
-	</div>
+	{/if}
 </header>
 
 <main bind:this={main} class="p-4">
@@ -90,7 +92,7 @@
 			class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 lg:flex-row"
 		>
 			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm "good" at:</h3>
+				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm good at:</h3>
 				<ul
 					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
 				>
