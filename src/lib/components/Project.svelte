@@ -7,8 +7,11 @@
 		class="h-screen py-16 perspective-1000 transform-style-3d lg:sticky lg:bottom-0 lg:top-0 lg:flex-[2]"
 	>
 		<div
-			class="relative top-0 h-full rounded-3xl bg-gradient-to-br from-purple-700 to-orange-600 p-4 transition-all duration-1000 transform-style-3d hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
+			class="relative top-0 h-full rounded-3xl bg-gradient-to-br from-purple-700 to-orange-600 p-4 text-xl font-semibold text-white/60 transition-all duration-1000 transform-style-3d hover:translate-x-0 hover:translate-z-[1px] hover:rotate-x-0 hover:rotate-y-0 lg:translate-z-[200px] lg:rotate-x-3 lg:rotate-y-[24deg]"
 		>
+			<div class="absolute inset-0 grid animate-pulse place-items-center">
+				Loading site preview...
+			</div>
 			<div class="relative h-full overflow-clip rounded-2xl translate-z-[20px]">
 				<iframe
 					src={iframeURL}
