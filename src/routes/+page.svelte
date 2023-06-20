@@ -35,6 +35,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Ben Tomlin</title>
+</svelte:head>
+
 <svelte:window bind:scrollY bind:innerHeight={windowHeight} />
 
 <header
