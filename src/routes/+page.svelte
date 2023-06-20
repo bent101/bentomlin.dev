@@ -42,7 +42,7 @@
 	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
 	style="background-image: url({waves})"
 >
-	{#if scrollY < mainTop}
+	{#if scrollY < mainTop || !browser}
 		<div
 			style="scale: {1 + Math.max(0, scrollY) / 30}"
 			class="fixed inset-0 grid h-screen place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
