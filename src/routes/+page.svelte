@@ -119,6 +119,10 @@
 					<li>Git/Github</li>
 					<li>Working with a team</li>
 					<li>SQL</li>
+					<li>R</li>
+					<li>MATLAB</li>
+					<li>Keras</li>
+					<li>numpy/pandas/matplotlib</li>
 				</ul>
 			</div>
 
