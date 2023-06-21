@@ -261,6 +261,12 @@
 		target="_blank"
 		href="https://github.com/bent101">Github</a
 	>
+	<a
+		class="text-2xl text-gray-300"
+		rel="noreferrer"
+		target="_blank"
+		href="mailto:btomlin@ucsd.edu">Email me</a
+	>
 </footer>
 
 <div
