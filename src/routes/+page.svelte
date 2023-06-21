@@ -47,7 +47,7 @@
 	{#if scrollY < mainTop || !browser}
 		<div
 			style="scale: {1 + Math.max(0, scrollY) / 30}"
-			class="fixed inset-0 grid h-screen place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
+			class="fixed inset-0 grid h-screen origin-[calc(50%-58px)_calc(50%-29.9px)] place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
 		>
 			<div class="mt-6 border-8 border-white p-4 text-center">
 				<div class="text-[100px] leading-[60px]">Ben</div>
