@@ -25,8 +25,6 @@
 			const mainBox = main?.getBoundingClientRect();
 			mainTop = headerBox?.height ?? 0;
 			mainHeight = mainBox?.height ?? Infinity;
-
-			console.log({ mainTop, mainHeight });
 		};
 	}
 
@@ -275,6 +273,7 @@
 <style lang="postcss">
 	img {
 		user-select: none;
+		pointer-events: none;
 	}
 
 	b {
