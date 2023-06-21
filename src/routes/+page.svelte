@@ -41,13 +41,14 @@
 
 <header
 	bind:this={header}
-	class="pointer-events-none h-[max(500vh,356vw)] select-none bg-cover bg-center"
+	class="pointer-events-none mb-[-120%] h-[max(500vh,356vw)] select-none bg-cover bg-center"
 	style="background-image: url({waves})"
 >
 	{#if scrollY < mainTop || !browser}
 		<div
-			style="scale: {1 + Math.max(0, scrollY) / 30}"
-			class="fixed inset-0 grid h-screen origin-[calc(50%-58px)_calc(50%-29.9px)] place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
+			style="scale: {1 + Math.max(0, scrollY) / 30}; rotate: {scrollY /
+				20}deg; filter: blur({scrollY / 3000}px)"
+			class="fixed inset-0 grid h-screen place-items-center bg-black font-extrabold uppercase tracking-wide text-white mix-blend-multiply"
 		>
 			<div class="mt-6 border-8 border-white p-4 text-center">
 				<div class="text-[100px] leading-[60px]">Ben</div>
