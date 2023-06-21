@@ -60,7 +60,7 @@
 </header>
 
 <main bind:this={main} class="p-4">
-	<section class="mx-auto flex max-w-3xl flex-col gap-8 sm:flex-row">
+	<section class="mx-auto flex max-w-4xl flex-col gap-8 sm:flex-row">
 		<div class="flex-1">
 			<img
 				src={ben}
@@ -69,11 +69,12 @@
 			/>
 		</div>
 		<div class="flex-1">
-			<h2 class="font-serif text-5xl font-extrabold text-gray-300">
+			<h2 class="font-serif text-5xl font-extrabold text-white/80">
 				Hi, I'm Ben!
 			</h2>
-			<p class="mt-4 text-lg font-semibold text-gray-500">
-				I'm a Computer Science major at <b>UCSD</b>. I started exploring
+			<p class="mt-4 text-lg font-semibold text-white/40">
+				I'm a Computer Science major at <b>UC San Diego</b> (UCSD). I started
+				exploring
 				<b>web development</b>
 				in November of 2022 and have been loving every second of it. Before that,
 				I enjoyed learning about
@@ -86,7 +87,7 @@
 
 	<section class="p-4">
 		<h2
-			class="mx-auto mb-16 mt-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
+			class="mx-auto mb-16 mt-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-white/80"
 		>
 			My skills
 		</h2>
@@ -95,9 +96,9 @@
 			class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 lg:flex-row"
 		>
 			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm good at:</h3>
+				<h3 class="mb-4 text-2xl font-bold text-white/60">I'm good at:</h3>
 				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
+					class="list-inside list-disc text-lg font-semibold text-white/40 marker:text-white/20"
 				>
 					<li>Svelte/SvelteKit</li>
 					<li>Tailwind</li>
@@ -109,9 +110,9 @@
 			</div>
 
 			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I know:</h3>
+				<h3 class="mb-4 text-2xl font-bold text-white/60">I know:</h3>
 				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
+					class="list-inside list-disc text-lg font-semibold text-white/40 marker:text-white/20"
 				>
 					<li>Go, Java, C, C++</li>
 					<li>Vanilla JS</li>
@@ -126,9 +127,9 @@
 			</div>
 
 			<div class="flex-1 rounded-3xl bg-[#131428] px-8 py-4">
-				<h3 class="mb-4 text-2xl font-bold text-gray-400">I'm learning:</h3>
+				<h3 class="mb-4 text-2xl font-bold text-white/60">I'm learning:</h3>
 				<ul
-					class="list-inside list-disc text-lg font-semibold text-gray-500 marker:text-gray-700"
+					class="list-inside list-disc text-lg font-semibold text-white/40 marker:text-white/20"
 				>
 					<li>React/Next</li>
 					<li>Using databases</li>
@@ -139,7 +140,7 @@
 
 	<section class="p-4">
 		<h2
-			class="mx-auto my-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-gray-300"
+			class="mx-auto my-[50vh] max-w-3xl font-serif text-5xl font-extrabold text-white/80"
 		>
 			My projects
 		</h2>
@@ -150,7 +151,7 @@
 
 			<p>
 				<a href="https://mcsrranked.com" target="_blank" rel="noreferrer"
-					><abbr title="Minecraft Speedrunning">MCSR</abbr> Ranked</a
+					>Minecraft Speedrunning (MCSR) Ranked</a
 				>
 				is a Minecraft mod that lets speedrunners race each other in the same seed,
 				but on different worlds. The devs of the mod made a <b>public API</b>
@@ -161,11 +162,12 @@
 				during <b>the day after</b> I told people about it.
 				<br />
 				<br />This is my proudest web dev project, so have a look around!
+				<br /><br />
 				<a
 					href="https://github.com/bent101/mcsr-ranked-stats"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-50">Repo</a
+					class="inline-block text-white/20">Repo</a
 				>
 			</p>
 		</Project>
@@ -190,18 +192,18 @@
 				<br />
 				<br />The result is 82 lists of <b>interlinked courses</b> that you can
 				switch between and save links to.
-				<br />
+				<br /><br />
 				<a
 					href="https://github.com/bent101/ucsdcourses"
 					target="_blank"
 					rel="noreferrer"
-					class="inline-block opacity-50">Site repo</a
+					class="inline-block text-white/20">Site repo</a
 				>
 				<a
 					href="https://github.com/bent101/ucsd-courses-scraping"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-50">Scraping repo</a
+					class="ml-4 inline-block text-white/20">Scraping repo</a
 				>
 			</p>
 		</Project>
@@ -216,11 +218,12 @@
 				<b>SvelteKit</b> and <b>Tailwind</b>. I absolutely love this stack and
 				have used it ever since, so you could say this project served its
 				purpose!
+				<br /><br />
 				<a
 					href="https://github.com/bent101/pi-game"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-50">Repo</a
+					class="inline-block text-white/20">Repo</a
 				>
 			</p>
 		</Project>
@@ -235,59 +238,62 @@
 				open-source game engine. I also taught other people how to use Godot as
 				the <b>vice-president</b> of the Game Dev club.
 				<br />
-				<br />It has over <b>50k</b> downloads with an <b>80%</b> positive
-				review rate.
+				<br />It has an <b>80%</b> positive review rate with over <b>50k</b>
+				downloads! From a complex player state machine to custom-coded scarf physics
+				to 50+ unique levels, this game was a very fun challenge.
+				<br /><br />
 				<a
 					href="https://github.com/studio-heart-engine/joyspring/tree/master"
 					target="_blank"
 					rel="noreferrer"
-					class="ml-4 inline-block opacity-50">Repo</a
+					class="inline-block text-white/20">Repo</a
 				>
 			</p>
 		</Project>
 	</section>
 </main>
 
-<img src={bottomWave} alt="" class="w-full" />
-<footer class="flex items-center justify-center gap-8 bg-[#131428] p-16">
+<img src={bottomWave} alt="" class="pointer-events-none w-full" />
+<footer
+	class="flex items-center justify-center gap-8 bg-[#131428] px-4 pb-32 pt-16"
+>
 	<a
-		class="text-2xl text-gray-300"
+		class="text-2xl text-white/80"
 		rel="noreferrer"
 		target="_blank"
 		href={resume}>Resume</a
 	>
 	<a
-		class="text-2xl text-gray-300"
+		class="text-2xl text-white/80"
 		rel="noreferrer"
 		target="_blank"
 		href="https://github.com/bent101">Github</a
 	>
 	<a
-		class="text-2xl text-gray-300"
+		class="text-2xl text-white/80"
 		rel="noreferrer"
 		target="_blank"
 		href="mailto:btomlin@ucsd.edu">Email me</a
 	>
 </footer>
 
-<div
+<!-- <div
 	style="width: {100 * scrollProgress}%"
 	class="fixed inset-x-0 top-0 z-[9999] h-2 overflow-clip"
 >
 	<div class="h-full w-screen bg-gradient-to-r from-purple-700 to-orange-600" />
-</div>
+</div> -->
 
 <style lang="postcss">
 	img {
 		user-select: none;
-		pointer-events: none;
 	}
 
 	b {
-		@apply text-gray-300;
+		@apply text-white/80;
 	}
 
 	a {
-		@apply font-bold underline underline-offset-4;
+		@apply font-bold underline underline-offset-4 hover:text-white/80;
 	}
 </style>

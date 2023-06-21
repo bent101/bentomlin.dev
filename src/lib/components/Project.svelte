@@ -52,17 +52,17 @@
 			{/if}
 		</div>
 		<div class="flex-1 lg:my-[90vh]">
-			<h2 class="font-serif text-5xl font-extrabold text-gray-300">
+			<h2 class="font-serif text-5xl font-extrabold text-white/80">
 				<slot name="title" />
 			</h2>
 
 			<div
-				class="ml-auto block w-max font-serif text-xl font-bold text-gray-500"
+				class="ml-auto block w-max font-serif text-xl font-bold text-white/40"
 			>
 				<slot name="date" />
 			</div>
 
-			<p class="mt-32 text-lg font-semibold text-gray-500">
+			<p class="mt-32 text-lg font-semibold text-white/40">
 				<slot />
 			</p>
 		</div>
