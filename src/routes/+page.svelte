@@ -228,7 +228,7 @@
 			</p>
 		</Project>
 
-		<Project iframeURL="https://studio-heart-engine.itch.io/joyspring">
+		<Project iframeURL="https://studio-heart-engine.github.io/projects.html">
 			<div slot="title">Joyspring</div>
 			<div slot="date">2020 - 2021</div>
 
@@ -280,7 +280,7 @@
 <!-- <div
 	style="width: {100 * scrollProgress}%"
 	class="fixed inset-x-0 top-0 z-[9999] h-2 overflow-clip"
->
+>https://studio-heart-engine.github.io/projects.html
 	<div class="h-full w-screen bg-gradient-to-r from-purple-700 to-orange-600" />
 </div> -->
 
