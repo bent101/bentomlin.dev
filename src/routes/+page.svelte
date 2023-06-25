@@ -172,7 +172,7 @@
 			</p>
 		</Project>
 
-		<Project iframeURL="https://ucsdcourses.vercel.app/CSE">
+		<Project iframeURL="https://ucsdcourses.vercel.app/LIT">
 			<div slot="title">UCSD Courses</div>
 			<div slot="date">January - March</div>
 
