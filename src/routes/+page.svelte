@@ -186,8 +186,8 @@
 				<br />The HTML structure (and the text content) of the UCSD course
 				catalog is so messy and inconsistent, that the first month of the
 				project was spent just on the scraping. It took over <b>500 lines</b> of
-				Python (and some manual fixes) to parse, filter, and organize, and
-				interlink the
+				Python (and some manual fixes) to parse, filter, organize, and interlink
+				the
 				<b>6,888 courses</b> across <b>82 pages</b>.
 				<br />
 				<br />The result is 82 lists of <b>interlinked courses</b> that you can
