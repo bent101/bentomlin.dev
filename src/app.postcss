@@ -2,3 +2,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	.prose,
+	.prose * {
+		@apply font-semibold text-white/50;
+	}
+
+	.prose b {
+		@apply font-bold text-white/80;
+	}
+
+	.prose a {
+		@apply font-bold underline underline-offset-4 hover:text-white/80;
+	}
+
+	.prose code {
+		@apply rounded-md bg-white/10 px-1 py-0.5 font-mono font-semibold text-white/50;
+	}
+}
