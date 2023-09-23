@@ -68,7 +68,7 @@
 
 	{#if slug === "mcsr-ranked-stats"}
 		<div
-			class="absolute right-4 top-4 rounded-full bg-purple-500 px-1 text-xs font-bold uppercase text-black/90"
+			class="absolute right-4 top-4 rounded-full bg-purple-500 px-1.5 pt-px text-xs font-bold uppercase text-black/95 shadow-md shadow-purple-500/40"
 		>
 			My favorite
 		</div>

@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="fixed inset-x-0 top-4 z-50 mx-auto flex w-max rounded-full bg-navy p-1 text-white backdrop-blur-md"
+	class="fixed inset-x-0 top-4 z-50 mx-auto flex w-max rounded-full bg-sky-blue p-1 text-white backdrop-blur-md"
 >
 	<a
 		aria-label="Ben's Linkedin"

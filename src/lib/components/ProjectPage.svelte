@@ -52,31 +52,40 @@
 		</div>
 
 		<article class="mx-auto max-w-xl pt-4">
-			<div class="flex items-center gap-4">
-				<a href={siteUrl} target="_blank" class="group text-3xl text-white">
-					<span
-						class="inline-block cursor-pointer font-bold underline-offset-4 group-hover:underline"
-						style="view-transition-name: title"
+			<div
+				class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between"
+			>
+				<div class="flex items-center gap-1 text-xl sm:gap-4 sm:text-3xl">
+					<a href={siteUrl} target="_blank" class="group text-white">
+						<span
+							class="inline-block cursor-pointer font-bold underline-offset-4 group-hover:underline"
+							style="view-transition-name: title"
+						>
+							{title}
+						</span>
+
+						<Icon
+							class="inline-block -translate-y-0.5"
+							icon="mdi:open-in-new"
+						/>
+					</a>
+
+					<a
+						href={githubUrl}
+						target="_blank"
+						class="rounded-full p-1 hover:bg-white/10"
 					>
-						{title}
-					</span>
-
-					<Icon class="inline-block -translate-y-0.5" icon="mdi:open-in-new" />
-				</a>
-
-				<a
-					href={githubUrl}
-					target="_blank"
-					class="rounded-full p-1 hover:bg-white/10"
+						<Icon icon="mdi:github" class=" text-white" />
+					</a>
+				</div>
+				<div
+					class="text-right text-base font-semibold text-white/40 sm:text-xl"
 				>
-					<Icon icon="mdi:github" class="h-8 w-8 text-white" />
-				</a>
-				<div class="ml-auto text-right text-xl font-semibold text-white/40">
 					{date}
 				</div>
 			</div>
 			<h3
-				class="pt-2 text-xl font-semibold leading-none text-white/60"
+				class="pt-2 text-base font-semibold leading-none text-white/60 sm:text-xl"
 				style="view-transition-name: subtitle"
 			>
 				{subtitle}

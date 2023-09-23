@@ -60,8 +60,7 @@ const projectsData = [
 	    for the leaderboards, player stats, match timelines, and more, so I made
 	    this website to help players understand and compare their stats.
 	    <br />
-	    <br />It received <b>100+</b> visitors and <b>1,200+</b> page views
-	    during <b>the day after</b> I told people about it.
+	    <br />It gets <b>400+</b> MAUs and <b>3,000+</b> page views per month.
 	    <br />
 	    <br />This is my proudest web dev project, so have a look around!
 	    <br /><br />

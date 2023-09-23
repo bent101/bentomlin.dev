@@ -7,6 +7,7 @@ const config = {
 			colors: {
 				navy: "#130f2e",
 				"dark-navy": "#09080c",
+				"sky-blue": "#333b99",
 			},
 		},
 	},

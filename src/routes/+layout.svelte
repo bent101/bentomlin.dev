@@ -42,7 +42,8 @@
 	>
 		<div class="relative h-80 w-80">
 			<div
-				style="background-image: url({blob1});"
+				style="background-image: url({blob1});
+				transform: translateY({(scrollY - 400) / 8}px)"
 				class="absolute -inset-24 bg-cover bg-center"
 			/>
 			<img
@@ -65,51 +66,56 @@
 		</div>
 	</section>
 
-	<section
-		class="bg-center bg-no-repeat pb-20"
-		style="background-image: url({blob2})"
-	>
-		<h2 class="mx-auto mb-8 max-w-3xl">My skills</h2>
-
+	<section class="relative pb-20">
 		<div
-			class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 md:flex-row"
-		>
-			<div
-				class="flex-1 rounded-3xl border-4 border-navy bg-dark-navy px-8 py-8"
-			>
-				<h3 class="mb-4">I know:</h3>
-				<ul
-					class="list-inside list-disc space-y-1 text-lg font-semibold marker:text-neutral-800"
-				>
-					<li>HTML, CSS, JS</li>
-					<li>Typescript</li>
-					<li>React, Next.js (<code>/app</code> & <code>/pages</code>)</li>
-					<li>Svelte, SvelteKit</li>
-					<li>Tailwind</li>
-					<li>Firebase (Firestore, Auth, Functions)</li>
-					<li>SQL, noSQL, Data modeling</li>
-					<li>Git, GitHub</li>
-					<li>Python</li>
-					<li>Figma</li>
-				</ul>
-			</div>
+			class="absolute inset-0 bg-center bg-no-repeat"
+			style="background-image: url({blob2});
+		transform: translateY({(scrollY - 1000) / 20}px)"
+		/>
+
+		<div class="relative">
+			<h2 class="mx-auto mb-8 max-w-3xl">My skills</h2>
 
 			<div
-				class="flex-1 rounded-3xl border-4 border-navy bg-dark-navy px-8 py-8 md:translate-y-20"
+				class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 md:flex-row"
 			>
-				<h3 class="mb-4">I'm familiar with:</h3>
-				<ul
-					class="list-inside list-disc space-y-1 text-lg font-semibold marker:text-neutral-800"
+				<div
+					class="flex-1 rounded-3xl border-4 border-navy bg-dark-navy px-8 py-8"
 				>
-					<li>Go</li>
-					<li>Java</li>
-					<li>C, C++</li>
-					<li>numpy, pandas, matplotlib</li>
-					<li>Keras</li>
-					<li>R</li>
-					<li>MATLAB</li>
-					<li>Godot, GDScript</li>
-				</ul>
+					<h3 class="mb-4">I know:</h3>
+					<ul
+						class="list-inside list-disc space-y-1 text-lg font-semibold marker:text-neutral-800"
+					>
+						<li>HTML, CSS, JS</li>
+						<li>Typescript</li>
+						<li>React, Next.js (<code>/app</code> & <code>/pages</code>)</li>
+						<li>Svelte, SvelteKit</li>
+						<li>Tailwind</li>
+						<li>Firebase (Firestore, Auth, Functions)</li>
+						<li>SQL, noSQL, Data modeling</li>
+						<li>Git, GitHub</li>
+						<li>Python</li>
+						<li>Figma</li>
+					</ul>
+				</div>
+
+				<div
+					class="flex-1 rounded-3xl border-4 border-navy bg-dark-navy px-8 py-8 md:translate-y-20"
+				>
+					<h3 class="mb-4">I'm familiar with:</h3>
+					<ul
+						class="list-inside list-disc space-y-1 text-lg font-semibold marker:text-neutral-800"
+					>
+						<li>Go</li>
+						<li>Java</li>
+						<li>C, C++</li>
+						<li>numpy, pandas, matplotlib</li>
+						<li>Keras</li>
+						<li>R</li>
+						<li>MATLAB</li>
+						<li>Godot, GDScript</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
