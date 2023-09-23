@@ -32,7 +32,7 @@
 	data-sveltekit-replacestate
 	href="/{slug}"
 	class:invisible={opened}
-	class="group cursor-pointer overflow-clip rounded-3xl bg-navy"
+	class="group relative cursor-pointer overflow-clip rounded-3xl bg-navy"
 	style="view-transition-name: {hasVtn ? 'card' : 'none'}"
 >
 	<img
@@ -64,4 +64,12 @@
 			{subtitle}
 		</p>
 	</div>
+
+	{#if slug === "mcsr-ranked-stats"}
+		<div
+			class="absolute right-4 top-4 rounded-full bg-purple-500 px-1 text-xs font-bold uppercase text-black/90"
+		>
+			My favorite
+		</div>
+	{/if}
 </a>

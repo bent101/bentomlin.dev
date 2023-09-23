@@ -101,12 +101,14 @@
 				<ul
 					class="list-inside list-disc space-y-1 text-lg font-semibold marker:text-neutral-800"
 				>
-					<li>Go, Java, C, C++</li>
-					<li>Vanilla JS</li>
-					<li>Working with a team</li>
-					<li>R, MATLAB</li>
+					<li>Go</li>
+					<li>Java</li>
+					<li>C, C++</li>
 					<li>numpy, pandas, matplotlib</li>
 					<li>Keras</li>
+					<li>R</li>
+					<li>MATLAB</li>
+					<li>Godot, GDScript</li>
 				</ul>
 			</div>
 		</div>

@@ -7,7 +7,7 @@ import mcsrrankedstatsVideo from "$lib/assets/mcsrrankedstats.mp4";
 import ucsdcoursesCover from "$lib/assets/ucsdcourses.png";
 import ucsdcoursesVideo from "$lib/assets/ucsdcourses.mp4";
 import joyspringCover from "$lib/assets/joyspring.png";
-import joyspringVideo from "$lib/assets/joyspring.mp4";
+import joyspringVideo from "$lib/assets/joyspring.webm";
 import wave1 from "$lib/assets/shapes/wave1.svg";
 import wave2 from "$lib/assets/shapes/wave2.svg";
 import wave3 from "$lib/assets/shapes/wave3.svg";
