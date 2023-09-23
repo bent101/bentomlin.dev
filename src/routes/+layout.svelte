@@ -5,7 +5,7 @@
 	import Links from "$lib/components/Links.svelte";
 	import ProjectCard from "$lib/components/ProjectCard.svelte";
 
-	import ben from "$lib/assets/selfie.png";
+	import ben from "$lib/assets/selfie.webp";
 	import blob1 from "$lib/assets/shapes/blob1.svg";
 	import blob2 from "$lib/assets/shapes/blob2.svg";
 
