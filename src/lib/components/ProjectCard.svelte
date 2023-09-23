@@ -38,6 +38,7 @@
 	<img
 		src={coverImage}
 		alt=""
+		loading="lazy"
 		class="aspect-video w-full rounded-t-3xl object-cover transition-transform duration-200 group-hover:scale-105 group-active:scale-100"
 		style="view-transition-name: {hasVtn ? 'cover' : 'none'}"
 	/>
