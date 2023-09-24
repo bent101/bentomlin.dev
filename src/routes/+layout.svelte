@@ -29,6 +29,7 @@
 
 <svelte:head>
 	<title>Ben Tomlin</title>
+	<meta property="og:title" content="Ben Tomlin" />
 	<meta property="og:image" content={ogImage} />
 	<meta property="og:width" content="747" />
 	<meta property="og:height" content="449" />
