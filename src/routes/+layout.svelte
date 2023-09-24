@@ -8,6 +8,7 @@
 	import ben from "$lib/assets/selfie.webp";
 	import blob1 from "$lib/assets/shapes/blob1.svg";
 	import blob2 from "$lib/assets/shapes/blob2.svg";
+	import ogImage from "$lib/assets/ogImage.png";
 
 	import { onNavigate } from "$app/navigation";
 	import { projects } from "$lib/projects";
@@ -28,6 +29,11 @@
 
 <svelte:head>
 	<title>Ben Tomlin</title>
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:width" content="747" />
+	<meta property="og:height" content="449" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <svelte:window bind:scrollY />
@@ -55,10 +61,9 @@
 		<div class="relative flex-1">
 			<h2>Hi, I'm Ben!</h2>
 			<p class="mt-4 text-lg/relaxed">
-				I'm a Computer Science major at <b>UC San Diego</b>. I started exploring
-				<b>web development</b>
-				in November of 2022 and have been loving every second of it. Before that,
-				I enjoyed learning about
+				I'm a 3rd year Computer Science major at <b>UC San Diego</b>. I started
+				exploring <b>web development</b> in November of 2022 and have been
+				loving every second of it. Before that, I enjoyed learning about
 				<b>data structures and algorithms</b>. And in high school, I was the
 				lead developer of a
 				<b>video game</b> made over the course of 2 years.
