@@ -30,13 +30,17 @@
 <svelte:head>
 	<title>Ben Tomlin</title>
 	<meta property="og:title" content="Ben Tomlin" />
-	<meta property="og:description" content="og description" />
-	<meta property="description" content="description" />
+	<!-- <meta
+		property="og:description"
+		content="this is a really long og description with lots of words to fiill up more space so that maybe the image will be bigger maybe hopefully im just trying evreything and seeing what works"
+	/> -->
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:width" content="747" />
-	<meta property="og:height" content="449" />
+	<meta property="og:image:width" content="747" />
+	<meta property="og:image:height" content="449" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:type" content="website" />
+
+	<meta name="darkreader-lock" />
 </svelte:head>
 
 <svelte:window bind:scrollY />
