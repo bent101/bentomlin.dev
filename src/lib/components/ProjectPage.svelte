@@ -36,9 +36,11 @@
 	>
 		<div class="relative">
 			<video
-				loop
 				src={video}
 				poster={coverImage}
+				autoplay
+				loop
+				muted
 				autofocus
 				controls
 				class="focus:outline-none"

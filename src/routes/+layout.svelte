@@ -47,7 +47,7 @@
 
 <Hero />
 
-<main class="relative space-y-48 overflow-x-clip bg-dark-navy px-4 py-32">
+<main class="relative space-y-48 overflow-x-clip bg-dark-navy px-4 pt-32">
 	<section
 		class="mx-auto flex max-w-4xl flex-col gap-8 sm:flex-row sm:items-center"
 	>
@@ -141,33 +141,50 @@
 			{/each}
 		</div>
 	</section>
+
+	<section class="grid h-screen place-items-center">
+		<div class="flex max-w-3xl gap-2">
+			<div class="h-14 w-14 shrink-0 overflow-clip rounded-full bg-sky-blue">
+				<img src={ben} alt="" />
+			</div>
+			<p class="rounded-3xl rounded-tl-md bg-navy px-8 py-6">
+				I am available to do part-time internships or freelancing. If you have
+				any inquiries, please feel free to contact me at <a
+					href="mailto:btomlin@ucsd.edu"
+					target="_blank"
+				>
+					btomlin@ucsd.edu
+				</a>!
+			</p>
+		</div>
+	</section>
 </main>
 
 <slot />
 
 <style lang="postcss">
 	h2 {
-		@apply font-serif text-5xl font-extrabold text-neutral-200;
+		@apply font-serif text-5xl font-extrabold text-white/80;
 	}
 
 	h3 {
-		@apply text-2xl font-bold text-neutral-400;
+		@apply text-2xl font-bold text-white/60;
 	}
 
 	p,
 	li {
-		@apply font-semibold text-neutral-500;
+		@apply font-semibold text-white/50;
 	}
 
 	b {
-		@apply font-bold text-neutral-200;
+		@apply font-bold text-white/80;
 	}
 
 	a {
-		@apply font-bold underline underline-offset-4 hover:text-neutral-200;
+		@apply font-bold underline underline-offset-4 hover:text-white/80;
 	}
 
 	code {
-		@apply rounded-md bg-neutral-900 px-1 py-0.5 font-mono font-semibold text-neutral-500;
+		@apply rounded-md bg-white/10 px-1 py-0.5 font-mono font-semibold text-white/50;
 	}
 </style>

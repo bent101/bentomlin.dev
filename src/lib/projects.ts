@@ -1,5 +1,5 @@
 import minesweeperCover from "$lib/assets/minesweeper.webp";
-import minesweeperVideo from "$lib/assets/minesweeper.mp4";
+import minesweeperVideo from "$lib/assets/minesweeper.webm";
 import donequickCover from "$lib/assets/donequick.webp";
 import donequickVideo from "$lib/assets/donequick.mp4";
 import mcsrrankedstatsCover from "$lib/assets/mcsrrankedstats.webp";
@@ -21,7 +21,7 @@ const projectsData = [
 		subtitle: "A Minesweeper clone made to learn React and Next.js",
 		coverImage: minesweeperCover,
 		video: minesweeperVideo,
-		siteUrl: "https://minesweeper-bent101.vercel.app",
+		siteUrl: "https://minesweeper.bentomlin.dev",
 		githubUrl: "https://github.com/bent101/minesweeper",
 		date: "September 2023",
 		description: `
