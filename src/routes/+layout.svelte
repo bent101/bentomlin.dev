@@ -101,7 +101,7 @@
 						<li>React, Next.js (<code>/app</code> & <code>/pages</code>)</li>
 						<li>Svelte, SvelteKit</li>
 						<li>Tailwind</li>
-						<li>Firebase (Firestore, Auth, Functions)</li>
+						<li>Firebase (Firestore, Auth, Rules)</li>
 						<li>SQL, noSQL, Data modeling</li>
 						<li>Git, GitHub</li>
 						<li>Python</li>
