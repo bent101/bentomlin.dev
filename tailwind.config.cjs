@@ -1,3 +1,5 @@
+const hocusPlugin = require("tailwindcss-hocus");
+
 /** @type {import('tailwindcss').Config}*/
 const config = {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
@@ -12,7 +14,7 @@ const config = {
 		},
 	},
 
-	plugins: [require("tailwindcss-3d")],
+	plugins: [require("tailwindcss-3d"), hocusPlugin],
 };
 
 module.exports = config;
