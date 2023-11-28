@@ -38,6 +38,8 @@
 	<meta property="og:type" content="website" />
 	<meta name="twitter:card" content="summary_large_image" />
 
+	<meta name="robots" content="noindex, nofollow" />
+
 	<meta name="darkreader-lock" />
 </svelte:head>
 
