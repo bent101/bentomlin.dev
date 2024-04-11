@@ -59,10 +59,7 @@ const projectsData = [
 	    but on different worlds. The devs of the mod made a <b>public API</b>
 	    for the leaderboards, player stats, match timelines, and more, so I made
 	    this website to help players understand and compare their stats.
-	    <br />
-	    <br />It gets <b>400+</b> MAUs and <b>3,000+</b> page views per month.
-	    <br />
-	    <br />This is my proudest web dev project, so have a look around!
+			It serves <b>3,000+</b> MAUs and <b>40,000+</b> page views per month.
 	    <br /><br />
 	`,
 	},
