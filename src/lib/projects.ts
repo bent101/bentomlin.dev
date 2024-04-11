@@ -26,7 +26,8 @@ const projectsData = [
 		date: "September 2023",
 		description: `
             I believe games are the ultimate challenge in state management. So, to get familiar with React,
-            I made a Minesweeper clone. It times you and keeps track of your personal best.
+            I made a Minesweeper clone. It times you and keeps track of your personal best. I also added a 
+						global leaderboard using Prisma and Planetscale.
         `,
 	},
 	{
