@@ -18,7 +18,7 @@
 		<Icon class="h-full w-full" {icon} />
 	</a>
 	<div
-		class="pointer-events-none absolute -inset-x-96 top-full z-50 mx-auto mt-2 w-max origin-top rounded-md bg-white px-2 py-1 text-sm font-semibold text-navy opacity-0 transition-all duration-200 scale-[0.8] peer-hocus:opacity-100 peer-hocus:scale-100"
+		class="pointer-events-none absolute -inset-x-96 top-full z-50 mx-auto mt-2 w-max origin-top rounded-md bg-white px-2 py-1 text-sm font-semibold text-navy opacity-0 transition-all duration-150 scale-[0.95] peer-hocus:opacity-100 peer-hocus:scale-100"
 	>
 		{tooltip}
 	</div>
