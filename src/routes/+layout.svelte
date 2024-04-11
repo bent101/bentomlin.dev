@@ -70,12 +70,12 @@
 		<div class="relative flex-1">
 			<h2>Hi, I'm Ben!</h2>
 			<p class="mt-4 text-lg/relaxed">
-				I'm a 3rd year Computer Science major at <b>UC San Diego</b> and I'm
-				currently the lead developer at <b>Tramona</b>. I started exploring
-				<b>web development</b> in November of 2022 and have been loving every
-				second of it. Before that, I enjoyed learning about
-				<b>data structures and algorithms</b>. And in high school, I was the
-				lead developer of a <b>video game</b> made over the course of 2 years.
+				I'm a 3rd year Computer Science major at <b>UC San Diego</b>. I started
+				exploring <b>web development</b> in November of 2022 and have been loving
+				every second of it. After learning and building projects for almost a year,
+				I joined an early-stage startup called Tramona and took the role of lead
+				developer, where I've gained lots of experience doing full-stack web development
+				with a team and working in a larger codebase.
 			</p>
 		</div>
 	</section>
