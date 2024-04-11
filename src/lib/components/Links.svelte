@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Link from "./Link.svelte";
-	import resume from "$lib/assets/resume.pdf";
 </script>
 
 <div
@@ -11,7 +10,11 @@
 		icon="mdi:linkedin"
 		tooltip="View my Linkedin"
 	/>
-	<Link href={resume} icon="mdi:resume" tooltip="View my resume" />
+	<Link
+		href="/ben-tomlin-resume.pdf"
+		icon="mdi:resume"
+		tooltip="View my resume"
+	/>
 	<Link
 		href="mailto:btomlin@ucsd.edu"
 		icon="mdi:email"
