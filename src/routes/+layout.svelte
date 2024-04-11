@@ -154,10 +154,10 @@
 			<p class="rounded-3xl rounded-tl-md bg-navy px-8 py-6">
 				I am available to do part-time internships or freelancing. If you have
 				any inquiries, please feel free to contact me at <a
-					href="mailto:btomlin@ucsd.edu"
+					href="mailto:bentomlin101@gmail.com"
 					target="_blank"
 				>
-					btomlin@ucsd.edu
+					bentomlin101@gmail.com
 				</a>!
 			</p>
 		</div>
