@@ -70,12 +70,12 @@
 		<div class="relative flex-1">
 			<h2>Hi, I'm Ben!</h2>
 			<p class="mt-4 text-lg/relaxed">
-				I'm a 3rd year Computer Science major at <b>UC San Diego</b>. I started
-				exploring <b>web development</b> in November of 2022 and have been
-				loving every second of it. Before that, I enjoyed learning about
+				I'm a 3rd year Computer Science major at <b>UC San Diego</b> and I'm
+				currently the lead developer at <b>Tramona</b>. I started exploring
+				<b>web development</b> in November of 2022 and have been loving every
+				second of it. Before that, I enjoyed learning about
 				<b>data structures and algorithms</b>. And in high school, I was the
-				lead developer of a
-				<b>video game</b> made over the course of 2 years.
+				lead developer of a <b>video game</b> made over the course of 2 years.
 			</p>
 		</div>
 	</section>
@@ -91,7 +91,7 @@
 			<h2 class="mx-auto mb-8 max-w-3xl">My skills</h2>
 
 			<div
-				class="mx-auto flex max-w-5xl flex-col items-stretch gap-4 md:flex-row"
+				class="mx-auto flex max-w-5xl flex-col gap-4 md:flex-row md:items-start"
 			>
 				<div
 					class="flex-1 rounded-3xl border-4 border-navy bg-dark-navy px-8 py-8"
@@ -103,10 +103,15 @@
 						<li>HTML, CSS, JS</li>
 						<li>Typescript</li>
 						<li>React, Next.js (<code>/app</code> & <code>/pages</code>)</li>
+						<li>tRPC</li>
+						<li>Zod</li>
+						<li>SQL, noSQL, Data modeling</li>
+						<li>Prisma ORM</li>
+						<li>Drizzle ORM</li>
+						<li>shadcn/ui & Radix Primitives</li>
 						<li>Svelte, SvelteKit</li>
 						<li>Tailwind</li>
 						<li>Firebase (Firestore, Auth, Rules)</li>
-						<li>SQL, noSQL, Data modeling</li>
 						<li>Git, GitHub</li>
 						<li>Python</li>
 						<li>Figma</li>
